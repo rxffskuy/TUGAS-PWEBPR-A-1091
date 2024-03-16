@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header .nav-container{
+    width: 100vw;
+    background-color: #D9D9D9;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .nav-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+main .title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.main-container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+
+.main-container .first-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .first-container .tentara{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-container .first-container .tentara img{
+    height: 180px;
+    width: 180px;
+    margin-top: -15px;
+}
+
+.main-container .first-container .tentara .layout-tentara{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.main-container .first-container .tentara .layout-tentara h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-container .first-container .tentara .layout-tentara p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.main-container .first-container .tentara .layout-tentara a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px;
+    background-color: #399349;
+    width: 200px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: -20px;
+}
+
+.main-container .first-container .tentara .bg-tentara{
+    height: 120px;
+    width: 400px;
+    background-color: #D5FFDD;
+    position: absolute;
+    z-index: -1;
+    top: 165px;
+    border-radius: 15px;
+}
+
+.main-container .first-container .other-first{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.main-container .first-container .other-first .other-second{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+.main-container .first-container .other-first .other-second .tukang{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.main-container .first-container .other-first .other-second .tukang img{
+    height: 120px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left : -70px;
+}
+
+.main-container .first-container .other-first .other-second .tukang a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 4px;
+    width: 110px;
+    background-color: #E29A00;
+    text-align: center;
+    border-radius: 25px;
+    margin-left : -70px;
+    margin-top: -35px;
+}
+
+.main-container .first-container .other-first .other-second .tukang .bg-tukang{
+    background-color: #FFF4DC;
+    margin-left : -70px;
+    height: 130px;
+    width: 170px;
+    position: absolute;
+    top: 310px;
+    z-index: -1;
+    border-radius: 25px;
+}
+
+.main-container .first-container .other-first .other-second .pramugari{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -70px;
+}
+
+.main-container .first-container .other-first .other-second .pramugari img{
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.main-container .first-container .other-first .other-second .pramugari a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 4px;
+    width: 110px;
+    background-color: #FF5573;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: -35px;  
+}
+
+.main-container .first-container .other-first .other-second .pramugari .bg-pramugari{
+    background-color: #FFCED7;
+    height: 130px;
+    width: 170px;
+    position: absolute;
+    top: 460px;
+    z-index: -1;
+    border-radius: 25px;
+}
+
+.main-container .first-container .other-first .fotografer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 45px;
+    height: 110%;
+    margin-top: -10px;
+}
+
+.main-container .first-container .other-first .fotografer img{
+    height: 120px;
+    margin-left: 35px;
+}
+
+.main-container .first-container .other-first .fotografer h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.main-container .first-container .other-first .fotografer p{
+    font-size: 12px;
+    text-align: center;
+    width: 70%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.main-container .first-container .other-first .fotografer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+    width: 130px;
+    background-color: #3279AF;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+
+.main-container .first-container .other-first .fotografer .bg-fotografer{
+    background-color: #E2F2FF;
+    height: 280px;
+    width: 200px;
+    position: absolute;
+    top: 310px;
+    z-index: -1;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+
+.second-container{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-left: -60px;
+}
+
+.sub-container1{
+    height: 280px;
+    background-color: #F4F4F4;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-container2{
+    height: 120px;
+    background-color: #F4F4F4;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sub-container1 .dokter{
+    height: 60px;
+    width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #D8D6C1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.sub-container1 .pilot{
+    height: 60px;
+    width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #D8D6C1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.sub-container1 .ilmuan{
+    height: 60px;
+    width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #D8D6C1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.sub-container2 .pembalap{
+    height: 80px;
+    width: 180px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sub-container2 .astronout{
+    height: 80px;
+    width: 180px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dokter, .pilot, .ilmuan, img{
+    height: 50px;
+}
+
+.dokter .text-dokter {
+    padding-left: 15px;
+}
+
+.pilot .text-pilot {
+    padding-left: 15px;
+}
+
+.ilmuan .text-ilmuwan {
+    padding-left: 15px;
+}
+
+.dokter .text-dokter a{
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #D8D6C1;
+    padding: 2px 40px 2px 40px;
+    border-radius: 25px;
+    color: white;
+}
+
+.pilot .text-pilot a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    background-color: #D8D6C1;
+    padding: 2px 40px 2px 40px;
+    border-radius: 25px;
+    color: white;
+}
+
+.ilmuan .text-ilmuwan a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    background-color: #D8D6C1;
+    padding: 2px 40px 2px 40px;
+    border-radius: 25px;
+    color: white;
+}
+
+.pembalap img{
+    height: 80px;
+}
+
+.astronout img{
+    height: 80px;
+}
+
+.pembalap .text-pembalap{
+    display: flex;
+    flex-direction: column;
+}
+
+.astronout .text-astronout{
+    display: flex;
+    flex-direction: column;
+}
+
+.pembalap .text-pembalap a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    background-color: #D8D6C1;
+    padding: 8px 5px 8px 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.astronout .text-astronout a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    background-color: #D8D6C1;
+    padding: 8px 5px 8px 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1280px) {
+
+    header .nav-container{
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .main-container{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .first-container{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .second-container{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .main-container .first-container .tentara{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    
+    .main-container .first-container .tentara .layout-tentara{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-container .first-container .tentara .bg-tentara{
+        position: none;
+        width: 70%;
+        height: 210px;
+    }
+    
+    .main-container .first-container .tentara .layout-tentara p{
+        margin-bottom: 0px;
+    }
+    
+    .main-container .first-container .tentara .layout-tentara a{
+        margin-bottom: 0px;
+        position: relative;
+        top : -80px;
+    }
+
+    .main-container .first-container .other-first{
+        flex-direction: column;
+    }
+    
+    .main-container .first-container .other-first .other-second{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    
+    .main-container .first-container .other-first .other-second .tukang{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .main-container .first-container .other-first .other-second .tukang img{
+        height: 180px;
+        width: 180px;
+        margin-top: 0px;
+        margin-left : 0px;
+    }
+    
+    .main-container .first-container .other-first .other-second .tukang a{
+        padding: 10px;
+        width: 200px;
+        margin-left : 0px;
+        margin-top: -10px;
+    }
+    
+    .main-container .first-container .other-first .other-second .tukang .bg-tukang{
+        background-color: #FFF4DC;
+        margin-left : 0px;
+        height: 230px;
+        width: 70%;
+        top: 400px;
+    }
+    
+    .main-container .first-container .other-first .other-second .pramugari{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    
+    .main-container .first-container .other-first .other-second .pramugari img{
+        height: 180px;
+        width: 180px;
+        margin-top: 0px;
+    }
+    
+    .main-container .first-container .other-first .other-second .pramugari a{
+        padding: 10px;
+        width: 200px;
+        margin-top: -10px;  
+    }
+    
+    .main-container .first-container .other-first .other-second .pramugari .bg-pramugari{
+        height: 230px;
+        width: 70%;
+        top: 655px;
+    }
+
+    .main-container .first-container .other-first .fotografer{
+        width: 100%;
+        margin-left: 0px;
+        height: 100%;
+        margin-top: 30px;
+    }
+    
+    .main-container .first-container .other-first .fotografer img{
+        height: 180px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .main-container .first-container .other-first .fotografer h5{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    
+    .main-container .first-container .other-first .fotografer p{
+        width: 50%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .main-container .first-container .other-first .fotografer a{
+        width: 200px;
+        margin-left: 0px;
+        position: relative;
+        top: -100px;
+    }
+    
+    .main-container .first-container .other-first .fotografer .bg-fotografer{
+        height: 230px;
+        width: 70%;
+        top: 960px;
+        margin-left: 0px;
+    }
+
+    .second-container{
+        margin-top: 10px;
+        gap: 30px;
+        margin-left: 0px;
+    }
+    
+    .sub-container1{
+        height: auto;
+        background-color: transparent;
+        width: 70%;
+        gap: 20px;
+    }
+    
+    .sub-container2{
+        height: auto;
+        background-color: transparent;
+        width: 70%;
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+        padding-bottom: 70px;
+    }
+    
+    .sub-container1 .dokter{
+        height: 230px;
+        width: 100%;
+        background-color: #E9E8E2;
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .sub-container1 .pilot{
+        height: 230px;
+        width: 100%;
+        background-color: #E9E8E2;
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .sub-container1 .ilmuan{
+        height: 230px;
+        width: 100%;
+        background-color: #E9E8E2;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .sub-container2 .pembalap{
+        height: 230px;
+        width: 100%;
+        flex-direction: column;
+        background-color: #FFDBC5;
+    }
+    
+    .sub-container2 .astronout{
+        height: 230px;
+        width: 100%;
+        flex-direction: column;
+        background-color: #8FC5ED;
+    }
+    
+    .dokter, .pilot, .ilmuan, img{
+        height: 180px;
+        margin-bottom: 0px;
+    }
+
+    .dokter h5{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .pilot h5{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .ilmuan h5{
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .dokter .text-dokter {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .pilot .text-pilot {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .ilmuan .text-ilmuwan {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .dokter .text-dokter a{
+        font-size: 17px;
+        padding: 5px 50px 5px 50px;
+    }
+    
+    .pilot .text-pilot a{
+        font-size: 17px;
+        padding: 5px 50px 5px 50px;
+    }
+    
+    .ilmuan .text-ilmuwan a{
+        font-size: 17px;
+        padding: 5px 50px 5px 50px;
+    }
+    
+    .pembalap img{
+        height: 180px;
+        margin-top: 20px;
+    }
+    
+    .astronout img{
+        height: 180px;
+        margin-top: 30px;
+    }
+    
+    .pembalap .text-pembalap{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .astronout .text-astronout{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .pembalap .text-pembalap a{
+        font-size: 17px;
+        background-color: #E36415;
+        padding: 5px 50px 5px 50px;
+        border-radius: 25px;
+        margin-top: -15px;
+    }
+    
+    .astronout .text-astronout a{
+        font-size: 17px;
+        background-color: #275E87;
+        padding: 5px 50px 5px 50px;
+        border-radius: 25px;
+        margin-top: -25px;
+    }
+
+    .text-pembalap h5{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .text-astronout h5{
+        visibility: hidden;
+        position: absolute;
+    }
+}
